@@ -10,8 +10,6 @@ img = cv.imread("./img/IMG_8616.jpg")
 #顔検出
 face = cascade.detectMultiScale(img)
 
-
-
 #顔部を枠で囲む
 for x, y, w, h in face:
     cv.rectangle(img,(x,y),(x+w,y+h),(0,0,255),10)
