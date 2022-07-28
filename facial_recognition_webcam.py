@@ -59,7 +59,7 @@ while(True):
 
         # #モザイク処理
         # face= frame[y:y+h, x:x+w]
-        # small_pic = cv.resize(face, (8,8))
+        # small_pic = cv.resize(face, (5,5))
         # mosaic = cv.resize(small_pic,(w,h))
         # frame[y:y+h, x:x+w]=mosaic
 
